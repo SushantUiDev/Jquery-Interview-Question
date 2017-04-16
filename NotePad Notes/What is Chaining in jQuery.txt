@@ -1,0 +1,10 @@
+Q.What is Chaining in jQuery ?
+=>applying multiple method in a row ,
+ex.$("#div1").addClass("dummy");
+     $("#div1").css("color","red");
+     $("#div1").fadeIn("slow");
+
+and $("#div1").addClass("dummy").css("color","red").fadeIn("slow")  ->called method chaining
+
+
+method chaining is faster.

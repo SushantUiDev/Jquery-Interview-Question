@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Addition</title>
+<script src="jquery-3.1.0.js"></script>
+<script>
+$(document).ready(function(){
+	$(".c1").click(function(){
+		var str=$(this).val();  //get the specified operation name
+		//get the reference of first number
+		var num1=$("#number1").val();  //all controls val()
+		var num2=$("#number2").val();
+		
+		if(str=="sum"){
+			var result=parseInt(num1)+parseInt(num2);
+			$("#p1").html(result);
+			}
+		if(str=="sub"){
+			var result=parseInt(num1)-parseInt(num2);
+			$("#p1").html(result);
+			}
+		if(str=="mul"){
+			var result=parseInt(num1)*parseInt(num2);
+			$("#p1").html(result);
+			}	
+		if(str=="div"){
+			var result=parseInt(num1)/parseInt(num2);
+			$("#p1").html(result);
+			}
+		});
+	});
+</script>
+</head>
+
+<body>
+<p>
+    <label for="number1">Enetr First Number</label>
+    <input type="text" name="number1" id="number1">
+</p>
+<p>
+    <label for="number2">Enetr Second Number</label>
+    <input type="text" name="number2" id="number2">
+</p>
+<p>
+<input type="button" class="c1" value="sum"/>
+<input type="button" class="c1" value="sub"/>
+<input type="button" class="c1" value="mul"/>
+<input type="button" class="c1" value="div"/>
+</p>
+<p id="p1"></p>
+</body>
+</html>

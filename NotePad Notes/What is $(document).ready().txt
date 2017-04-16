@@ -1,0 +1,10 @@
+Q.What is $(document).ready(function(){
+                 
+               });
+
+=>here ,
+  $                       -> jquery function.
+ $(document) ->select document object to apply event.
+ ready()            ->ready is jquery event.it is fire after all html element on the browser.
+ function()       ->ready event expecting function to execute after all html document is ready,
+                           ->this is an unnamed function, we can any code in that so that will execute after all                                 document is ready.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>addClass Demo</title>
+<style>
+body{
+	background-color:#000;
+	}
+	.selected{
+		width:200px;
+		height:200px;
+		background-color:#0F6;
+		}
+</style>
+<script src="jquery-3.1.0.js"></script>
+<script>
+$(document).ready(function(){
+	$("div:last").addClass("selected");
+	$("div:last").removeClass("selected");
+	
+	});
+</script>
+</head>
+
+<body>
+<center>
+<div id="div1">1st
+</div>
+
+<div id="div2">2nd
+</div>
+
+<div id="div3"> 3rd
+</div>
+
+</center>
+</body>
+</html>

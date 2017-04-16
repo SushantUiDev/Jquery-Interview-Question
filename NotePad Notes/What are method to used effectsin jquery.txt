@@ -1,0 +1,6 @@
+Q.What are method to used effectsin jquery ?
+=>Show(),
+=>Hide(),
+=>Toggle(),
+=>FadeIn(),
+=>FadeOut().

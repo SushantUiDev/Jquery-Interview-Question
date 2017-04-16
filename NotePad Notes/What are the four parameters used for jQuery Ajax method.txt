@@ -1,0 +1,6 @@
+Q.What are the four parameters used for jQuery Ajax method?
+=>
+url:specific url of server.
+type:get/post
+data:specific data u want to send.
+cache:weather browser should cach the request.

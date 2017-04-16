@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>css() demo</title>
+<script src="jquery-3.1.0.js"></script>
+<script>
+$(document).ready(function(){
+	$("div.question > div:first").css("color","blue");
+	//$("div.question > div:nth-child(4)").css("color", "red");
+	$("div.question > div:nth-child(4)").css("color","red");
+	$("div.question > div:last").css("color", "red");
+	$("div.question > div:even").css("color", "pink");
+	$("div.question > div:odd").css("color", "yellow");
+	$("div.question > div:nth-last-child(2)").css("color", "red");
+	//$.ui.version ; //undefined
+	});
+</script>
+</head>
+<center>
+<div class="question">
+    <div class="question1">question1</div>
+    <div class="question2">question2</div>
+    <div class="question3">question3</div>
+    <div class="question4">question4</div>
+    <div class="question5">question5</div>
+    <div class="question6">question6</div>
+    <div class="question7">question7</div>
+    <div class="question8">question8</div>
+</div>
+</center>
+<body>
+</body>
+</html>

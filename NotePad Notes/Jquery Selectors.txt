@@ -1,0 +1,22 @@
+Q.Jquery Selectors ?
+=>
+1)tag based.
+$(div) ,$(p)....
+
+2)id based:
+$("#p1") , $("#btn1")
+
+3)class based
+$(".c1") ,....
+
+4)universal selectors :
+$("*") ->select all
+
+5)selec tmultiple element:
+=>$(p , div , h1) ->multiple tag
+=>$("#text1 , #text2")
+=>$(".class1 , .class2")
+
+6)$(this) -> current selector
+
+7)$(document) -> it is an object.

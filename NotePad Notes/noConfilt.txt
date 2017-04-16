@@ -1,0 +1,3 @@
+Q.Whether our own specific characters are used in place of $ in jQuery ?
+=>yes,we can use 
+var sample=$.noComflit();

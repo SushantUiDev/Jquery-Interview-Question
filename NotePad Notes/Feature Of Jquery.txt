@@ -1,0 +1,28 @@
+Q.Feature Of Jquery ?
+=>
+1)Light-Weight:
+=>jquery file size is very small less than 100kb;
+=>because of that easy to download from server to browser.
+=>execution time is also fast.
+
+2)css3 complaint :
+=>jquery support css3 feature.called css3 complaint.
+
+3)cross browser:
+=>jquery library is browser indepedent .(support all browser)
+
+
+4)DOM Traversing:
+=>accessing the dom at runtime so that we can do operation at runtime.
+=>this is easily done by jquery selector.each(),eq()
+
+5)DOM Manipulation:
+=>updating dom structure at run-time like adding / removing row of table at runtime.
+=>jquery provides some predefined function to implement that
+ like append() ,remove() , empty() , attr() .
+
+6)Ajax Support in Jquery:
+=>jquery.ajax .
+
+7)Effects in Jquery:
+=>jquery have some beautyfull predefined method like effect() , animate() ..

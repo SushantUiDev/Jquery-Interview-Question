@@ -1,0 +1,4 @@
+Q. What is CDN ?
+=>content distributed network.
+1)microsoft=ajax cdn
+2)google=google library

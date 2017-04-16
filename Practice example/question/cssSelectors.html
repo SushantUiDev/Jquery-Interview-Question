@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="jquery-3.1.0.js" ></script>
+<title>CSS selector</title>
+<style>
+.questions
+{
+	background-color:#000;
+	color:white;
+	font-size:36px;
+	width:900px;
+	text-align:center;
+	margin:0 auto;
+	padding:5px;
+}
+.box
+{
+	margin-bottom:5px;
+}
+#btn1
+{
+	color:black;
+}
+<!-- code for first div-->
+</style>
+<script>
+var kk= $.noConflict();
+kk(document).ready(function(){
+	/*$("div.questions > div:first").css("background-color" , "red");
+	$("div.questions > div:last").css("background-color" , "green");*/
+	kk("div.questions > div:even").css("background-color" , "red");
+	kk("div.questions > div:odd").css("background-color" , "blue");
+	kk("div.questions > div:nth-child(6)").css("background-color" , "green");
+	kk("div.questions > div:nth-last-child(2)").css("background-color" , "yellow").css("color" , "red");
+	});
+</script>
+</head>
+
+<body>
+<div class="questions" >
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   <div class="box" >Question</div>
+   
+</div>
+</body>
+</html>

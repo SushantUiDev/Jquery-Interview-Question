@@ -1,0 +1,6 @@
+Q.What is Jquery?
+=>it is a javascript library.
+=>the main moto of jquery is "write less do more".
+=>jquery makes client side programming more easy by providing predefined function.
+=>developed by john regin.
+
